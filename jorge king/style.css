@@ -1,0 +1,189 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+background:0;
+animation-name: bora;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+animation-delay: 1s;
+min-height: 100vh;
+z-index: -1;
+}
+@keyframes bora{
+10%{    
+    background-color:yellow;
+}
+50% { background-color: green;
+
+
+}
+100%{  background-color: blue;}
+
+
+
+}
+.ifood{
+    position: absolute;
+    width: 110px;
+    height: 50px;
+    margin-left: 820px;
+margin-top: 66px;}
+.instagran{
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    margin-left: 860px;
+    margin-top: 66px;
+}
+.imagendobanner{
+    width: 1200px;
+    height: 400px;
+margin-left: 100px;
+margin-top: 60px;
+border-radius: 2%;
+position: absolute;
+}
+.Empireburger{
+
+    position: absolute;
+    width: 90px;
+    height: 20px;
+margin-top: 70px;
+margin-left: 150px;
+
+}
+ol{
+    display: flex;
+position: absolute;    
+    list-style: none;
+    margin-top: 73px;
+    margin-left: 470px;
+}
+.Home{
+    color:rgb(117, 83, 52);
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+li{
+
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 5px;
+    font-size: 15px;
+    color:rgb(167, 120, 79);
+    margin-top: 7px;
+background: transparent;
+box-shadow: 100px;
+    
+}
+h2{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 200px;
+    font-size: 50px;
+}
+.p1{ font-size: 20px;
+    position: absolute;
+    margin-top: -73px;
+}
+.apetitedeumrei{
+background-color: rgb(250, 129, 16);
+margin-left: 130px;
+margin-top: -16px;
+color: rgb(43, 42, 42);
+width: 120px;
+border-radius: 2px;
+
+
+}
+.burger{
+color: rgb(250, 129, 16); ;
+position: absolute;
+margin-left: 180px;
+margin-top: -57px;
+}
+.paraquemtemumrei
+{
+    margin-left: -2px;
+    list-style: none;
+
+}
+button{
+    height: 30px;
+width: 130px;
+margin-top: 10px;
+position: absolute;
+background-color: red;
+border: 0;
+border-radius: 2px;
+color: aliceblue;
+
+}
+
+h3{
+ width: 1200px;
+ height: 50px;   
+position:absolute;
+background-color: antiquewhite;
+margin-top:450px;
+margin-left: 100px;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+
+}
+section{
+    margin-left: 80px;
+    margin-right: 30px;
+margin-top: 10px;
+font-size: 15px;
+}
+h4{
+    display:flex;
+justify-content: center;
+    border: solid 2px;
+    width: 600px;
+    height: 80px;
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 400px;
+    border-radius: 10px;
+background-color: aliceblue;
+
+}
+
+.br{
+    font-size: 8px;
+color: grey;
+
+
+    }
+    
+    h5{
+margin: 40px;
+display: flex;
+justify-content: center;
+
+
+    }
+   
+    .idelivery{
+        position: absolute;
+        margin-top: 415px;
+    
+    margin-left: 820px;
+    }
+    .iatendimento{
+
+        position: absolute;
+        margin-top: 415px;
+    
+    margin-left: 630px; 
+    }
+    .iartesanal{
+        position: absolute;
+        margin-top: 415px;
+    
+    margin-left: 440px;
+
+    }
